@@ -188,31 +188,36 @@ Author:   Webstrot
             <div class="holder">
                 <div class=" row">
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                        <form action="#">
-                            <div class="sw_left_heading_wraper">
-                                <h1>Contact Us</h1>
-                                <img src="images/heading_line.png" alt="title">
-                                <p>We're here to help you explore the many benefits of solar energy and provide solutions tailored to your needs.
-                                </p>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" name="full_name" placeholder="Name*" class="require">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" autocomplete="false" name="hidden" name="email" placeholder="Email*" class="require" data-valid="email" data-error="Email should be valid.">
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="text" name="subject" placeholder="subject">
-                                </div>
+                        <form method="get" id="my-form">
+                            <div class="cont_main_section">
 
-                                <div class="col-md-12">
-                                    <textarea cols="10" rows="4" name="message" class="require" placeholder="Message*"></textarea>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="contect_form1">
+                                        <input type="text" name="name" placeholder="Name*"  class="require">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="contect_form1">
+                                        <input type="email" name="email" placeholder="Email*" class="require"
+                                            data-valid="email" data-error="Email should be valid.">
+                                    </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="response response_2"></div>
-                                    <div class="cntct_2_btn_wrapper cntct_2_btn_inner">
-                                        <button type="button" class="submitForm waves-effect waves-light waves-ripple">send</button>
+                                    <div class="contect_form1">
+                                        <input type="text" name="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="contect_form4">
+                                        <textarea rows="5" name="message" placeholder="Message"
+                                            class="require"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="response"></div>
+                                    <div class="cntct_2_btn_wrapper">
+                                        <button type="submit"
+                                            class="submitForm waves-effect waves-light waves-ripple">send</button>
                                     </div>
                                 </div>
                             </div>
@@ -279,11 +284,11 @@ Author:   Webstrot
                                 <div class="abotus_content">
                                     <p>Sindhu Solarwaves, we are pioneers in providing reliable, efficient, and sustainable solar energy solutions. Our company is committed to making renewable energy accessible to all, contributing to a greener and more sustainable future.</p>
                                     <ul>
-                                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
-                                        <!-- <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li> -->
-                                        <li><a href="javascript:;"><i class="fa fa-youtube-play"></i></a></li>
-                                        <!-- <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li> -->
-                                        <li><a href="javascript:;"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/sindhusolarwaves/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        
+                                        <li><a href="https://www.youtube.com/@SindhuSolarwaves" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                                    
+                                        <li><a href="https://www.instagram.com/sindhusolarwaves/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
 
@@ -370,6 +375,7 @@ Author:   Webstrot
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/camera.min.js"></script>
+    <script src="js/custom.js"></script>
     <script src="js/custom_2.js"></script>
     <script src='../../../mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
     <!--main js file end-->
