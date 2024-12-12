@@ -159,7 +159,7 @@ textarea:focus {
 #return-to-top {
     top: -68px;
     right: 0;
-    left: 0;
+    left: 68%;
     margin: 0px auto;
     color: #1d3571;
     text-transform: uppercase;
