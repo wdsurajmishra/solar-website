@@ -39,6 +39,7 @@ html {
     color: #6b84ad;
 	overflow-x:hidden;
 	background:#f6fbff !important;
+    cursor: url(../images/sunny.png), auto;
 }
 
 
